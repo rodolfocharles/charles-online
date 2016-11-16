@@ -1,0 +1,11 @@
+applications:
+- path: output/webApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: charles-online
+  host: charles-online
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - charles-online-personality_insights
